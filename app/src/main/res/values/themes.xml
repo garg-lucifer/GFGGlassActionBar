@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+    </style>
+
+    <!--    Adding translucent theme for glassy effect -->
+
+    <style name="AppTheme.TranslucentActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/TranslucentActionBar</item>
+    </style>
+
+</resources>
